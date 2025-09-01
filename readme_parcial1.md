@@ -116,7 +116,7 @@ Este proyecto demuestra cómo los algoritmos de ML pueden aplicarse a:
 
 ## 👥 Contribuidores
 
-- **Equipo de desarrollo**: [Nombres de integrantes del grupo]
+- **Equipo de desarrollo**: Adrian Montenegro Zamora, Daniel Esteban Gonzalez Vergara, Godwin Zuluaga Garcia, Jade Manon Nicolas, Juan Pablo Camacho Peña, Luis Alejandro Suarez Arevalo, Maria Alejandra Velasquez Chauta.
 - **Profesor**: Camilo Vega Barbosa
 - **Profesor complementario**: Daniel Aguirre
 
