@@ -106,6 +106,19 @@ pip install pandas numpy scikit-learn matplotlib seaborn xgboost datasets
 - Reducción dimensional con PCA
 - Evaluación comparativa de rendimiento
 
+## Curva ROC
+Se evidencia que todos los modelos tienen un buen rendimiento, sin embargo, KNN con tiene el peor rendimiento de los tres modelos, ya que, detecta bien a los estudiantes que aprueban/reprueban, pero comete más falsos positivos. En cambio,  sobresale Randomforest, siendo este modelo el de mejor rendimiento de los tres, lo que implica que distingue con mucha precisión entre aprobar y reprobar.
+
+## Modelos
+Los tres modelos muestran buenos resultados : las accuracies son superiores a 0.84. 
+- KNN: El recall es muy alto lo que significa que el modelo detecta casi todos los casos positivos pero tiene menor precisión y AUC, lo que indica que genera más FP 
+- XGBoost: El modelo es confiable y robusto porque su AUC es muy alto lo que demuestra una excelente capacidad de distinguir entre clases. El recall y la precisión presentan un buen equilibrio. 
+- RandomForest: El modelo minimiza los FP y discrimina con mayor eficiencia entre las clases. Tiene la mejor precisión y el mejor AUC 
+
+## Validacion Cruzada
+Random Forest alcanza los valores de F1 más altos en la validación cruzada y muestra una gran consistencia entre los distintos folds. KNN, en cambio, presenta el peor desempeño: sus F1-scores son claramente más bajos y con mayor variabilidad, lo que indica que depende más de la partición de datos que le toque. Por su parte, XGBoost también exhibe un rendimiento muy competitivo, con resultados cercanos a los de Random Forest, aunque con una ligera mayor dispersión en los folds.
+
+
 ## 💡 Aplicaciones Económicas
 
 Este proyecto demuestra cómo los algoritmos de ML pueden aplicarse a:
